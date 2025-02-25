@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+html {
+  background: #fff;
+  overflow-y: scroll; 
+}
+
+body {
+  font:   1.875em/1.6 'Inconsolata', monospace;
+  color: #181818;
+  font-weight:550;
+  max-width: 28em;
+  padding: 1em;
+  margin: 1% 0; 
+}
+::selection{
+  background: #eee
+}
+::-webkit-selection{
+  background: #eee
+}
+::-moz-selection{
+  background: #eee
+}
+a{
+  color: #181818;
+}
+
+a:hover,a:focus{
+  background: #181818;
+  color:#fff;
+}
+h2{
+  font-size: 1em;
+  font-weight: 400;
+}
+p{
+  margin-bottom:1em;
+}
+abbr{
+  cursor: help;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin:0.2em 0 0;
+}
+span{
+  display: block;
+  color:#999;
+  line-height:1;
+}
+
+kbd{
+  font-family: 'Inconsolata', monospace;
+  border:1px solid #999;
+  text-transform: uppercase;
+  padding:0 .2em;
+}
+input[type="text"]{
+  max-width: 10em;
+  border: none;
+  font-family: inherit;
+  background: #fff;
+  padding:0 .5em;
+}
+input[type="text"]:focus{
+  background: #fff;
+  color: #000;
+  outline:none;
+}
+.command{
+  display: none;
+  max-width: 20em;
+  color: #181818;
+  font-weight: 700;
+  margin: 2em 0;
+}
+
+
+section{
+  display: none;
+}
+.open{
+  display: block;
+}
+
+.photo-grid {
+  display: grid; /* Ensure the grid display */
+  grid-template-columns: repeat(4, 300px); /* Adjust according to your layout */
+  gap: 16px; /* Adjust the spacing between images */
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+  animation-delay: var(--delay);
+  border-radius: 18px;
+} 
+
+.photo-grid img:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.507); 
+} 
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
+
+/*Apply a different animation delay for each image*/
+.photo-grid img:nth-child(1) {
+  animation-delay: 0s;
+}
+.photo-grid img:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.photo-grid img:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.photo-grid img:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.photo-grid img:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.photo-grid img:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.photo-grid img:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.photo-grid img:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.photo-grid img:nth-child(9) {
+  animation-delay: 0.8s;
+}
+

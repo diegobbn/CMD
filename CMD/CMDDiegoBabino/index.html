@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>USHI - User System Helper Interface</title>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <main>
+    <section id="home">
+      <h2>USHI - User System Helper Interface</h2>
+      <p>A project made by Diego Babino.</p>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+      <p><span>Check the <a href="../README.md" target="_blank"><kbd>readme</kbd></a> file to get access to all the commands at any time.</span></p>
+      </section>
+
+    <!-- Explain the project & the goal of it -->
+    <section id="about">
+      <h2><span>&raquo;About</span></h2>
+      <p>This project is an experimental showcase created by <a href="https://instagram.com/ushinaya"
+          target="_blank">Diego Babino (me)</a> for showcasing my portfolio in an unusual but original way by simulating
+        a command line interface. It's nothing more than the usual hidden elements triggered by some JS to show/hide
+        each section of content, based on input values.
+        <br><br> This project has been specifically designed for my application to the CEPV in the “formation supérieure
+        en
+        communication visuelle option photographie.” I believe it reflects my innovative approach to visual
+        communication and my commitment to exploring new ways of presenting my artistic vision.
+      </p>
+    </section>
+
+    <!-- Used to talk about me and my carrer -->
+    <section id="ushi">
+      <h2><span>&raquo;Who am I ?</span></h2>
+      <p>Using it is pretty straight forward. Create several(as much as you need) divs or &laquo;section&raquo; elements
+        each with it's unique id to hold your content. Make sure to have an error section (id="error") with some
+        information to warn the user when he/she mistypes a command or if there is no section with that name, think of
+        it as a 404 page.</p>
+      <p>A section with id="help" is also required so you can list all the available sections and let your users know
+        what words to write to access that particular content.</p>
+      <p>The input field must be a standalone element and must not be placed inside any of the content divs or sections,
+        and make sure you give it a classname "command", if you want to name it anything else you need to edit the
+        app.js and change all instances of .command in the script to match your chosen classname.</p>
+      <p>In short, just view the source code of this demo, copy/modify it to your liking making sure you include the
+        error and help sections.</p>
+    </section>
+
+    <!-- Download -->
+    <section id="download">
+      <h2><span>&raquo;Download</span></h2>
+      <p>Download the commands file: <a href="https://github.com/syndicatefx/cli">Github</a><br>
+        License: MIT</p>
+    </section>
+
+    <!-- ERROR -->
+    <section id="error">
+      <p>Command not found!
+      <p>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- HELP -->
+    <section id="help">
+      <h2><span>&raquo;Help?</span></h2>
+      <p><span>Type [command] + <kbd>Enter</kbd></span></p>
+      <ul>
+        <li>'home' -- Thats obvious!</li>
+        <li>'about' -- What's this for</li>
+        <li>'ushi' -- Who am i ?</li>
+        <li>'projects' -- Listr of all my projects</li>
+        <li>'help' -- displays this list</li>
+        <li>'photo' -- displays the pictures</li>
+        <li>'music' -- displays my music project</li>
+        <li>'download' -- download the command list</li>
+      </ul>
+    </section>
+
+<!-- MUSIC -->
+    <section id="music">
+      <p>Music Project
+      <p>Loading...</p>
+      <p>
+      <p>Ushi is a project that explores whether AI has a place in the world of music. As a photographer/Web designer 
+        with a passion for new technology and art, I seek to push creative boundaries through innovation.<br>
+        <br>
+
+        This project is an experiment and an extension of my universe, where I have developed an AI that autonomously
+        generates sounds, composing and producing music without human intervention. The entire process is fully
+        automated—from sound design to arrangement—allowing the AI to create unique compositions. My role is to
+        curate and mix the best pieces, shaping the final tracks while letting the AI be the true architect of the
+        sound.</p>
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/artist/0XxVGerK3tuN12K4EZBK3w?utm_source=generator&theme=0" width="100%"
+        height="352" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <section id="projects">
+      <h2><span>&raquo;projects</span></h2>
+      <p>List of (almost) every projects I made :</p>
+      <p><span>Type [No of the project] + <kbd>Enter</kbd></span></p>
+      <ul>
+        <li>'n1' -- Trippie Redd x Ushi x Poppodium 013</li>
+        <li>'n2' -- Tataki x Ushi - Commercial Collaboration</li>
+        <li>'n3' -- Belelec Festival x Ushi - Artistic Collaboration</li>
+        <li>'n4' -- Seahawks x Ushi - Commercial Collaboration</li>
+        <li>'n5' -- Kekra x Ushi x Le Courrier - Newspaper</li>
+        <li>'n6' -- Ylenia Alvaro x Ushi - "Snowfall"</li>
+        <li>'n7' -- Laskaz x Ushi - "It's a Bird... It's a Plane..."</li>
+        <li>'n8' -- Sinaa x Ushi - "It Can't Last Forever Kid"</li>
+        <li>'n9' -- Nelson Louis x Ushi - Commercial Collaboration</li>
+        <li>'n10' -- Nana K x Ushi - Album cover "B345T MODE" & "B345T MODE (Deluxe)"</li>
+        <li>'n11' -- Ushi x Ushi - "Autoportrait #1"</li>
+        <li>'n12' -- Camille x Ushi - "Pool Side Convo"</li>
+        <li>'n13' -- Ushi x Ushi - "Autoportrait #2"</li>
+        <li>'n14' -- Ixem x Ushi - Album cover "FRAGMENTS"</li>
+        <li>'n15' -- Tonio x Ushi - Album cover "See Me More"</li>
+      </ul>
+    </section>
+
+    <!-- SECTION OF ALL THE PROJECTS -->
+    <!-- Trippie Redd -->
+    <section id="n1">
+      <h2><span>&raquo;Trippie Redd</span></h2>
+      <p> Project "Trippie Redd x Ushi x Poppodium 013" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Tataki -->
+    <section id="n2">
+      <h2><span>&raquo;Tataki x Ushi</span></h2>
+      <p> Project "Tataki x Ushi - Commercial Collaboration" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Balelec -->
+    <section id="n3">
+      <h2><span>&raquo;Balelec Festival</span></h2>
+      <p>Loading...</p>
+      <p> Project "Balelec x Ushi - Artistic Collaboration" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Seahwaks -->
+    <section id="n4">
+      <h2><span>&raquo;Geneva Seahawks</span></h2>
+      <p>Loading...</p>
+      <p> Project "Seahawks x Ushi - Commercial Collaboration" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Kekra -->
+    <section id="n5">
+      <h2><span>&raquo;Kekra x Le Courier</span></h2>
+      <p>Loading...</p>
+      <p> Project "Kekra x Ushi x Le Courrier - Newspaper" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Ylenia -->
+    <section id="n6">
+      <h2><span>&raquo;Ylenia Alfaro</span></h2>
+      <p>Loading...</p>
+      <p> Project "Ylenia Alfaro x Ushi - "Snowfall"" Succesfully loaded... <span style="color: green;">&raquo;OK</span>
+      </p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Laskaz -->
+    <section id="n7">
+      <h2><span>&raquo;Laskaz</span></h2>
+      <p>Loading...</p>
+      <p> Project "Laskaz x Ushi - "It's a Bird... It's a Plane..."" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Sinaa -->
+    <section id="n8">
+      <h2><span>&raquo;Sinaa</span></h2>
+      <p>Loading...</p>
+      <p> Project "Sinaa x Ushi - "It Can't last Forever Kid"" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Nelson -->
+    <section id="n9">
+      <h2><span>&raquo;Nelson Louis</span></h2>
+      <p>Loading...</p>
+      <p> Project "Nelson Louis x Ushi - Commercial Collaboration" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Nana k -->
+    <section id="n10">
+      <h2><span>&raquo;Nana K</span></h2>
+      <p>Loading...</p>
+      <p> Project "Nana k x Ushi - Album cover "B345T MODE" & "B345T MODE (Deluxe)" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Ushi 1 -->
+    <section id="n11">
+      <h2><span>&raquo;Ushi #1</span></h2>
+      <p>Loading...</p>
+      <p> Project "Ushi x Ushi - "Autoportrait #1" Succesfully loaded... <span style="color: green;">&raquo;OK</span>
+      </p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Camille -->
+    <section id="n12">
+      <h2><span>&raquo;Camille</span></h2>
+      <p>Loading...</p>
+      <p> Project "Camille x Ushi - "Pool Side Convo" Succesfully loaded... <span style="color: green;">&raquo;OK</span>
+      </p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Ushi 2 -->
+    <section id="n13">
+      <h2><span>&raquo;Ushi #2</span></h2>
+      <p>Loading...</p>
+      <p> Project "Ushi x Ushi - "Autoportrait #2" Succesfully loaded... <span style="color: green;">&raquo;OK</span>
+      </p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Ixem -->
+    <section id="n14">
+      <h2><span>&raquo;ixem</span></h2>
+      <p>Loading...</p>
+      <p> Project "Ixem x Ushi - Album Cover "FRAGMENTS" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span></p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <!-- Tonio -->
+    <section id="n15">
+      <h2><span>&raquo;Tonio</span></h2>
+      <p>Loading...</p>
+      <p> Project "Tonio x Ushi - Album Cover "See Me More" Succesfully loaded... <span
+          style="color: green;">&raquo;OK</span> </p>
+      <div class="photo-grid" style="margin-bottom: 70px;">
+        <img src="../image.png" alt="Photo 1" class="fade-in">
+        <img src="../image.png" alt="Photo 2" class="fade-in">
+        <img src="../image.png" alt="Photo 3" class="fade-in">
+        <img src="../image.png" alt="Photo 4" class="fade-in">
+        <img src="../image.png" alt="Photo 5" class="fade-in">
+        <img src="../image.png" alt="Photo 6" class="fade-in">
+        <img src="../image.png" alt="Photo 7" class="fade-in">
+        <img src="../image.png" alt="Photo 8" class="fade-in">
+      </div>
+      <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+    </section>
+
+    <span class="command">User:/$<input type="text"></span>
+  </main>
+  <!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

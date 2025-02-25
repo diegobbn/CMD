@@ -1,0 +1,13 @@
+COMMANDS
+
+0. Home
+1. About
+2. Diego
+3. Help
+4. Photography
+    4.1 
+5. Music
+6. Web
+7. 
+8.
+9.
