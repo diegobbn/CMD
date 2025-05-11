@@ -13,7 +13,7 @@ A creative portfolio interface.
 	•	‘music’ — Shows and present my music, as a side project and still related to my artistic direction.
  	•	‘contact’ — Displays contact information for inquiries or collaborations.
 
-# Projects Commands
+# Projects list & command
 
 	• 	'n1' -- Trippie Redd x Ushi x Poppodium 013
 	•	'n2' -- RTS/Tataki x Ushi - Commercial Collaboration
