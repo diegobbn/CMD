@@ -3,7 +3,7 @@
 Project Overview
 A creative portfolio interface.
 
-# Available Commands
+# Available commands
 
 	•	‘home’ — Displays the home section of the portfolio.
 	•	‘about’ — Provides information about this project and its purpose.
